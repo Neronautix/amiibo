@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Ubuntu';
+}
+
+div{
+  float:left;
+  margin:5px;
+  border:1px solid;
+  border-radius: 20px;
+  width:150px;
+  height:150px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter: grayscale(100%);
+  opacity:0.25;
+}
+
+p{
+  font-size:30px;
+  position: relative;
+  left:5px;
+  opacity:1;
+
+}
+
+.ok{
+    border-color:#00ab3c;
+    filter: grayscale(0%);
+    opacity:1;
+}
+.false{
+
+}
+
+.mario{
+  background-image: url('https://vignette.wikia.nocookie.net/nintendo/images/1/15/Amiibo_-_SSB_-_Mario.png/revision/latest?cb=20150606200025&path-prefix=en');
+}
+
+.peach{
+  background-image: url('https://vignette.wikia.nocookie.net/nintendo/images/7/7d/Amiibo_-_SSB_-_Peach.png/revision/latest?cb=20150606200026&path-prefix=en');
+}
+.yoshi{
+  background-image: url('https://vignette.wikia.nocookie.net/nintendo/images/c/c3/Amiibo_-_SSB_-_Yoshi.png/revision/latest?cb=20150606200027&path-prefix=en');
+}
+.dk{
+  background-image: url('https://vignette.wikia.nocookie.net/nintendo/images/5/51/Amiibo_-_SSB_-_Donkey_Kong.png/revision/latest?cb=20150606200028&path-prefix=en');
+
+}
+.link{
+  background-image: url('https://vignette.wikia.nocookie.net/nintendo/images/7/76/Amiibo_-_SSB_-_Link.png/revision/latest?cb=20150606200028&path-prefix=en');
+}
+.fox{
+  background-image: url('https://vignette.wikia.nocookie.net/nintendo/images/8/84/Amiibo_-_SSB_-_Fox.png/revision/latest?cb=20150606200029&path-prefix=en');
+}
+.samus{
+  background-image: url('https://vignette.wikia.nocookie.net/nintendo/images/8/89/Amiibo_-_SSB_-_Samus.png/revision/latest?cb=20150606200029&path-prefix=en');
+}
+.trainer{
+  background-image: url('https://vignette.wikia.nocookie.net/nintendo/images/c/c1/Amiibo_-_SSB_-_Wii_Fit_Trainer.png/revision/latest?cb=20150606200030&path-prefix=en');
+}
+.villager{
+  background-image: url('https://vignette.wikia.nocookie.net/nintendo/images/7/78/Amiibo_-_SSB_-_Villager.png/revision/latest?cb=20150606200030&path-prefix=en');
+}
+.pikachu{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/b/bc/Amiibo_-_SSB_-_Pikachu.png/revision/latest?cb=20150606200031&path-prefix=en");
+}
+.kirby{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/a/a5/Amiibo_-_SSB_-_Kirby.png/revision/latest?cb=20150606200513&path-prefix=en");
+}
+.marth{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/b/b7/Amiibo_-_SSB_-_Marth.png/revision/latest?cb=20150606200513&path-prefix=en");
+}
+.zelda{
+  background-image: url('https://vignette.wikia.nocookie.net/nintendo/images/7/71/Amiibo_-_SSB_-_Zelda.png/revision/latest?cb=20150606200514&path-prefix=en');
+}
+.diddy-kong{
+  background-image:url('https://vignette.wikia.nocookie.net/nintendo/images/3/3b/Amiibo_-_SSB_-_Diddy_Kong.png/revision/latest?cb=20150606200514&path-prefix=en');
+}
+.luigi{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/e/ec/Amiibo_-_SSB_-_Luigi.png/revision/latest?cb=20150606200515&path-prefix=en");
+}
+.little-mac{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/7/7d/Amiibo_-_SSB_-_Little_Mac.png/revision/latest?cb=20150606200515&path-prefix=en");
+}
+.pit{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/5/5d/Amiibo_-_SSB_-_Pit.png/revision/latest?cb=20150606200516&path-prefix=en");
+}
+.falcon{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/4/4d/Amiibo_-_SSB_-_Captain_Falcon.png/revision/latest?cb=20150606200516&path-prefix=en");
+}
+.rosalina{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/c/c0/Amiibo_-_SSB_-_Rosalina_%26_Luma.png/revision/latest?cb=20150606200517&path-prefix=en");
+}
+.bowser{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/1/1a/Amiibo_-_SSB_-_Bowser.png/revision/latest?cb=20150606200517&path-prefix=en");
+}
+.lucario{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/4/4d/Amiibo_-_SSB_-_Lucario.png/revision/latest?cb=20150606200845&path-prefix=en");
+}
+.toon-link{
+  background-image:url("https://vignette.wikia.nocookie.net/nintendo/images/4/4c/Amiibo_-_SSB_-_Toon-Link.png/revision/latest?cb=20150606200846&path-prefix=en");
+}
+.sheik{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/9/99/Amiibo_-_SSB_-_Sheik.png/revision/latest?cb=20150606200847&path-prefix=en);
+}
+.ike{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/6/6e/Amiibo_-_SSB_-_Ike.png/revision/latest?cb=20150606200847&path-prefix=en);
+}
+.shulk{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/4/43/Amiibo_-_SSB_-_Shulk.png/revision/latest?cb=20150606200848&path-prefix=en);
+}
+.sonic{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/f/f4/Amiibo_-_SSB_-_Sonic.png/revision/latest?cb=20150606200848&path-prefix=en);
+}
+.mega-man{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/3/3b/Amiibo_-_SSB_-_Mega_Man.png/revision/latest?cb=20150606200849&path-prefix=en);
+}
+.dedede{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/d/d1/Amiibo_-_SSB_-_King_Dedede.png/revision/latest?cb=20150606200849&path-prefix=en);
+}
+.meta-knight{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/7/7b/Amiibo_-_SSB_-_Meta_Knight.png/revision/latest?cb=20150606200850&path-prefix=en);
+}
+.robin{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/b/b8/Amiibo_-_SSB_-_Robin.png/revision/latest?cb=20150606200850&path-prefix=en);
+}
+.lucina{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/c/c9/Amiibo_-_SSB_-_Lucina.png/revision/latest?cb=20150606201223&path-prefix=en);
+}
+.wario{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/e/e8/Amiibo_-_SSB_-_Wario.png/revision/latest?cb=20150606201227&path-prefix=en);
+}
+.charizard{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/7/7f/Amiibo_-_SSB_-_Charizard.png/revision/latest?cb=20150606201228&path-prefix=en);
+}
+.ness{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/1/10/Amiibo_-_SSB_-_Ness.png/revision/latest?cb=20150606201230&path-prefix=en);
+}
+.pacman{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/c/cc/Amiibo_-_SSB_-_PAC-MAN.png/revision/latest?cb=20150606201231&path-prefix=en);
+}
+.greninja{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/a/a8/Amiibo_-_SSB_-_Greninja.png/revision/latest?cb=20150606201233&path-prefix=en);
+}
+.jigglypuff{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/2/2f/Amiibo_-_SSB_-_Jigglypuff.png/revision/latest?cb=20150606201234&path-prefix=en);
+}
+.palutena{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/0/03/Amiibo_-_SSB_-_Palutena.png/revision/latest?cb=20150606201234&path-prefix=en);
+}
+.dark-pit{
+  background-image:url(https://vignette.wikia.nocookie.net/nintendo/images/a/a5/Amiibo_-_SSB_-_Dark_Pit.png/revision/latest?cb=20150606201235&path-prefix=en);
+}
+.samus2{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/4/44/Amiibo_-_SSB_-_Zero_Suit_Samus.png/revision/latest?cb=20150606201235&path-prefix=en);
+}
+.ganondorf{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/d/d3/Amiibo---SSB---Ganondorf.png/revision/latest?cb=20150606201450&path-prefix=en);
+}
+.dr-mario{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/c/c0/Amiibo_-_SSB_-_Dr._Mario.png/revision/latest?cb=20150606201451&path-prefix=en);
+}
+.bowser-jr{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/7/71/Amiibo_-_SSB_-_Bowser_Jr..png/revision/latest?cb=20150606201451&path-prefix=en);
+}
+.olimar{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/3/3f/Amiibo_-_SSB_-_Pikmin_%26_Olimar.png/revision/latest?cb=20150606201452&path-prefix=en);
+}
+.mr-game{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/5/55/Amiibo_-_SSB_-_Mr._Game_%26_Watch.png/revision/latest?cb=20150722181603&path-prefix=en);
+}
+.rob{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/b/b0/Amiibo_-_SSB_-_R.O.B..png/revision/latest?cb=20150722181531&path-prefix=en);
+}
+.duck-hunt{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/0/05/Amiibo_-_SSB_-_Duck_Hunt.png/revision/latest?cb=20150722181351&path-prefix=en);
+}
+.mii-brawler{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/a/af/Amiibo_-_SSB_-_Mii_Brawler.png/revision/latest?cb=20150722181127&path-prefix=en);
+}
+.mii-swordfighter{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/8/88/Amiibo_-_SSB_-_Mii_Swordfighter.png/revision/latest?cb=20150722181210&path-prefix=en);
+}
+.mii-gunner{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/0/08/Amiibo_-_SSB_-_Mii_Gunner.png/revision/latest?cb=20150722181301&path-prefix=en);
+}
+.mewtwo{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/0/0e/Amiibo_-_SSB_-_Mewtwo.png/revision/latest?cb=20150810205242&path-prefix=en);
+}
+.falco{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/b/bb/Amiibo_-_SSB_-_Falco.png/revision/latest?cb=20150722181453&path-prefix=en);
+}
+.lucas{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/2/29/Amiibo_-_SSB_-_Lucas.png/revision/latest?cb=20151113153620&path-prefix=en);
+}
+.rob2{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/a/a1/Amiibo_-_SSB_-_R.O.B._%28Famicom%29.png/revision/latest?cb=20160304172140&path-prefix=en);
+}
+.roy{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/d/db/Amiibo_-_SSB_-_Roy.png/revision/latest?cb=20160304172321&path-prefix=en);
+}
+.ryu{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/5/52/Amiibo_-_SSB_-_Ryu.png/revision/latest?cb=20160304172404&path-prefix=en);
+}
+.cloud{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/1/1f/Amiibo_-_SSB_-_Cloud.png/revision/latest?cb=20170629010309&path-prefix=en);
+}
+.cloud2{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/e/e4/Amiibo_-_SSB_-_Cloud_%28P2%29.png/revision/latest?cb=20170629010344&path-prefix=en);
+}
+.corrin{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/0/04/Amiibo_-_SSB_-_Corrin.png/revision/latest?cb=20170629010404&path-prefix=en);
+}
+.corrin2{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/2/27/Amiibo_-_SSB_-_Corrin_%28P2%29.png/revision/latest?cb=20170629010422&path-prefix=en)
+}
+.bayonetta{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/3/3a/Amiibo_-_SSB_-_Bayonetta.png/revision/latest?cb=20170629010441&path-prefix=en)
+}
+.bayonetta2{
+  background-image: url(https://vignette.wikia.nocookie.net/nintendo/images/f/fb/Amiibo_-_SSB_-_Bayonetta_%28P2%29.png/revision/latest?cb=20170629010511&path-prefix=en)
+}

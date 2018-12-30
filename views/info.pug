@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    style
+    title Matches
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu")
+  body(style="font-family:Ubuntu")
+    div.container
+        h2 Spielzeit
+        p= info.spielzeit + " Stunden"
+        h2 Anzahl der Matches
+        p= info.matches
+        h2 Durchschnittle Dauer
+        p= info.durchschnitt + " Minuten"
