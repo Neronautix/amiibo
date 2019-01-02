@@ -11,7 +11,7 @@ app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
   info = {}
-  res.render('index', info=info)
+  res.render('amiibo', info=info)
 })
 
 app.get('/amiibo', (req, res) => {
